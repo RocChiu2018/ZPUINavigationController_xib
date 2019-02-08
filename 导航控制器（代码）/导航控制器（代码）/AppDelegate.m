@@ -15,6 +15,11 @@
  
  可以用如下的属性来获取导航控制器里面的栈顶控制器：
  nav.topViewController
+ 
+ UINavigationController内部组件的用法：
+ 1、UINavigationBar：专门指导航栏，可以使用这个类设置导航栏的一些属性，比如导航栏的背景图片、导航栏的背景颜色等；
+ 2、UINavigationItem：导航栏上用于管理导航项的类，是导航栏中管理的一个项目的抽象，可以利用本类设置导航栏中间的标题(title)、导航栏中间的视图(titleView)、导航栏左边的返回按钮的标题(backBarButtonItem)；
+ 3、UIBarButtonItem：一个UINavigationItem中，还可以包含许多BarButtonItem，BarButtonItem是一系列的按钮，会出现在导航栏的左侧或右侧。
  */
 #import "AppDelegate.h"
 #import "OneViewController.h"
@@ -48,7 +53,6 @@
     UINavigationController *nav = [[UINavigationController alloc] init];
     [nav addChildViewController:oneVC];
 //    [nav pushViewController:oneVC animated:YES];  //这句代码与上一句代码的作用相同
-    
     
     //2、设置窗口的根视图控制器：
     self.window.rootViewController = nav;
