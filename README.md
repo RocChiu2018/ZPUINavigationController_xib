@@ -1,5 +1,5 @@
 # ZPUINavigationController_xib
-介绍怎样在代码中创建导航控制(UINavigationController)以及导航控制器的使用。
+本Demo主要介绍了怎样在代码中创建导航控制(UINavigationController)以及导航控制器的使用。
 
 视频路径：小马哥视频2015年（没加密版）——>03-UI进阶——>0610-控制器创建/导航控制器——>视频——>12-导航控制器简单使用.mp4.flv.mkv、13-导航控制器管理子控制器.mp4.flv.mkv、14-导航控制器出栈.mp4.flv.mkv。
 
